@@ -566,7 +566,7 @@ class network_t
             algo = (cudnnConvolutionFwdAlgo_t)convAlgorithm;
             if (algo == CUDNN_CONVOLUTION_FWD_ALGO_FFT)
             {
-                //std::cout << "Using FFT for convolution\n";
+                std::cout << "Using FFT for convolution\n";
             }
         }
 
