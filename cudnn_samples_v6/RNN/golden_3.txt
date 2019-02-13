@@ -1,0 +1,17 @@
+------------GOLDEN------------
+Forward: 2569 GFLOPS
+Backward: 2654 GFLOPS, (2071 GFLOPS), (3694 GFLOPS)
+i checksum 5.749536E+05     c checksum 4.365091E+05     h checksum 5.774818E+04
+di checksum 3.842206E+02    dc checksum 9.323785E+03    dh checksum 1.182562E+01
+dw checksum 4.313461E+08
+-----------TOLERANCE-----------
+Forward: type=rel, 1 
+Backward: type=rel, 1
+i: type=rel, 1e-3
+h: type=rel, 1e-3
+c: type=rel, 1e-3
+dc: type=rel, 1e-3
+di: type=rel, 1e-3
+dh: type=rel, 1e-3
+dw: type=rel, 1e-3
+
